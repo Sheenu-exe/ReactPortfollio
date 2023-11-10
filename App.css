@@ -347,7 +347,7 @@ form>button:active{
 }
 .footer{
   background-color: #a57548;
-  height:30vh;
+  height:45vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
