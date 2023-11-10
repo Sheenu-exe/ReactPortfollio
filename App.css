@@ -4,30 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300&display=swap");
 
 
-body {
-  --sb-track-color: #232E33;
-  --sb-thumb-color: #a57548;
-  --sb-size: 6px;
-
-  scrollbar-color: var(--sb-thumb-color) 
-                   var(--sb-track-color);
-}
-
-body::-webkit-scrollbar {
-  width: var(--sb-size) 
-}
-
-body::-webkit-scrollbar-track {
-  background: var(--sb-track-color);
-  border-radius: 10px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: var(--sb-thumb-color);
-  border-radius: 10px;
-  
-  }
-
 .main > * {
   margin: 0;
 }
@@ -393,29 +369,8 @@ h1.enquiry{
   margin-bottom:20px;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  body {
-    --sb-track-color:none;
-    --sb-thumb-color:none;
-    --sb-size: 6px;
-  
-    scrollbar-color:none;
-  }
-  
-  body::-webkit-scrollbar {
-    width: 0;
-  }
-  
-  body::-webkit-scrollbar-track {
-    background:none;
-    border-radius: none;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background: none;
-    border-radius: 0;
-    
-    }
-  body {
+
+  html {
     overflow-x: hidden;
   }
   .page1 {
