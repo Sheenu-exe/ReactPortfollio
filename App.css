@@ -362,6 +362,9 @@ form>button:active{
   flex-direction:row;
 
 }
+.row{
+	width:50%;
+}
 .copyr{
 
   color: #ffffc7;
