@@ -375,28 +375,6 @@ h1.enquiry{
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body {
-    --sb-track-color:none;
-    --sb-thumb-color:none;
-    --sb-size: 6px;
-  
-    scrollbar-color:none;
-  }
-  
-  body::-webkit-scrollbar {
-    width: 0;
-  }
-  
-  body::-webkit-scrollbar-track {
-    background:none;
-    border-radius: none;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background: none;
-    border-radius: 0;
-    
-    }
-  body {
     overflow-x: hidden;
   }
   .page1 {
